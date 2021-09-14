@@ -1,0 +1,30 @@
+>>> from turtle import *
+>>> shape('turtle')
+>>> bgcolor('lightgreen')
+>>> forward(100)
+>>> left(90)
+>>> forward(100)
+>>> left(90)
+>>> forward(100)
+>>> left(90)
+>>> forward(100)
+>>> reset()
+>>> circle(200)
+>>> circle(-100)
+>>> forward(100)
+>>> up()
+>>> forward(100)
+>>> right(90)
+>>> down()
+>>> forward(100)
+>>> resert()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'resert' is not defined
+>>> reset()
+>>> begin_fill()
+>>> color('red')
+>>> circle(100)
+>>> end_fill()
+>>> hideturtle()
+>>>
